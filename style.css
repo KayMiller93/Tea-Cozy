@@ -53,14 +53,13 @@ nav span a{
 /*main content*/
 
 .main-content {
-  display: block;
+  display: flex;
+  flex-direction: column;
   opacity: 0.9;
-  margin-left: 600px;
-  margin-right: 600px;
+  margin: 0;
   padding-top: 69px;
-  text-align: center;
+  align-items: center;
   justify-content: center;
-  width: 1200px;
 
 }
 
@@ -72,23 +71,26 @@ nav span a{
   flex-wrap: wrap;
   height: 700px;
   justify-content: center;
+  align-items: center;
   text-align: center;
   padding-top: 70px;
+  width: 1200px;
 }
 
 
 
 .content {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-color: black;
-  margin-bottom: 298.5px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 298.5px;
+  margin: 0px;
   width: 1200px;
 }
 
 .content h2 {
+  display: block;
   font-weight: bold;
   margin: 0px;
   padding: 10px;
@@ -96,6 +98,7 @@ nav span a{
 }
 
 .content h4 {
+  display: block;
   font-weight: bold;
   margin: 0px;
   padding: 10px;
@@ -104,26 +107,24 @@ nav span a{
 /*store*/
 
 .store {
-  display: block;
-  font-family: Helvetica, sans-serif;
-  font-size: 22px;
+  display: flex;
+  flex-direction: column;
   height: 700px;
-  margin-bottom: 0px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 0px;
+  margin: 0px;
   padding-top: 70px;
-  text-align: center;
-  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
 }
 
 .store h2{
-  color: white;
-  font-size: 33px;
-  font-weight: bold;
+  display: flex;
+  flex-direction: column;
   margin: 0px;
   padding: 10px;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
 }
 
 .store h4 {
@@ -155,7 +156,7 @@ nav span a{
 }
 
 span {
-  color: white;
+  color: seashell;
   display: block;
   font-weight: bold;
   padding: 5px;
@@ -164,15 +165,17 @@ span {
 
 /*locations*/
 .locations {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
   padding-top: 70px;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.locations h2 {  
+.locations h2 {
   font-size: 33px;
   font-weight: bold;
   margin: 0px;
